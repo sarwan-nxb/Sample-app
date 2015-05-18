@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :author_id %><br>
-    <%= f.number_field :author_id %>
+    <%= f.select :author_id, @authors, :prompt => 'Select' %>
   </div>
   <div class="actions">
     <%= f.submit %>

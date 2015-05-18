@@ -15,10 +15,12 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     @post = Post.new
+    @authors = Author.author_ids
   end
 
   # GET /posts/1/edit
   def edit
+    @authors = Author.author_ids
   end
 
   # POST /posts
