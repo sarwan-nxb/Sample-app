@@ -12,5 +12,5 @@ $(document).ready ->
 app = angular.module('scopeExample', [])
 app.controller 'MyController',($scope,$http) ->
   $scope.get_json = $http.get('data.json')
- 
+
 

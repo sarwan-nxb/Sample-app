@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'haml', '~> 4.0.6'
 gem 'angularjs-rails', '~> 1.3.15'
+gem 'nokogiri', '~> 1.6.6.2'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
