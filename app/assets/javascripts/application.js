@@ -16,4 +16,5 @@
 //= require highstock
 //= require exporting
 //= require angular
+//= require posts
 //= require_tree .
