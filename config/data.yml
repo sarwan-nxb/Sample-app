@@ -1,0 +1,14 @@
+data:
+  make: toyota
+  group: popular
+  cn: FungTin
+  en: Toyota
+  id: 83
+  rank: 2 + %{random_number}
+settings:
+  info:
+    name: MyAppName
+    domain: example.com
+  contact:
+    email: mail@example.com
+    phone: 1234567890

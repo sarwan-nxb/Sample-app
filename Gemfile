@@ -31,6 +31,7 @@ gem 'nokogiri', '~> 1.6.6.2'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'activeadmin', github: 'activeadmin'
+gem 'hash_dot'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

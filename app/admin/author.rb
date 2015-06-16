@@ -12,6 +12,14 @@ ActiveAdmin.register Author do
 #   permitted << :other if resource.something?
 #   permitted
 # end
-
-
+  show do
+    h3 author.name
+    div do
+      "name: #{author.name} , #{author.created_at.to_date}, Id: #{author.id},  [#{link_to "Test","Test"}] ".html_safe
+    end
+  end
 end
+
+
+
+
